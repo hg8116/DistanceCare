@@ -45,12 +45,12 @@ The project is up and running!
 
 ## Built With
 
-- [HTML]
-- [CSS]
-- [Javascript]
-- [NodeJS]
-- [WebRTC]
-- [Websocket]
+- HTML
+- CSS
+- Javascript
+- NodeJS
+- WebRTC
+- Websocket
 
 ## Authors
 
