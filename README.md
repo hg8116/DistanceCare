@@ -55,8 +55,6 @@ The project is up and running!
 ## Authors
 
 - **Aditya Vijay Singh**
-  [PurpleBooth](https://github.com/PurpleBooth)
 - **Harsh Gupta**
-  [PurpleBooth](https://github.com/PurpleBooth)
 
 Made for Elan & nVision Hackathon
