@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sender</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <!-- <div>
+            <input placeholder="Enter username..."
+                    type="text"
+                    id="username-input" /><br>
+            <button onclick="sendUsername()">Send</button>
+            <button onclick="startCall()">Start Call</button>
+        </div> -->
+        <div class="background">
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <form>
+            <h3>Create Room</h3>
+    
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your name" id="name">
+    
+            <label for="room" id="username-input">Room ID</label>
+            <input type="text" placeholder="Create a Room ID" id="username-input">
+    
+            <button onclick="sendUsername()">Send</button>
+            <button onclick="startCall()">Start Call</button>
+        </form>
+        <div id="video-call-div">
+            <video muted id="local-video" autoplay></video>
+            <video id="remote-video" autoplay></video>
+            <div class="call-action-div">
+                <button onclick="muteVideo()">Turnoff Video</button>
+                <button onclick="muteAudio()">Mute Audio</button>
+            </div>
+        </div>
+        <script src="./sender.js"></script>
+    </body>
+
+    
+
+</html>
